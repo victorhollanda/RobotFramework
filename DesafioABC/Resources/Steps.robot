@@ -1,5 +1,6 @@
 ***Settings***
 Resource        Elements.resource
+Library         FakerLibrary
 
 ***Keywords***
 Dado que eu acesse o site Automationpractice
@@ -12,6 +13,7 @@ Quando clico em sign in
 
 E preencho o campo com um email valido
     wait until element is visible       ${teste.input_email}    10s
+    ${Email}  FakerLibrary.Email
     Input Text                          ${teste.input_email}    ${Email}
 
 E clico em criar conta
