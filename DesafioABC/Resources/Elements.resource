@@ -5,7 +5,6 @@ Library         FakerLibrary
 ***Variables***
 ${URL}          http://automationpractice.com/index.php
 ${Browser}      Chrome
-${Email}        emailteste123@gmail.com
 
 &{teste}
 ...     button_signin=//a[@class="login"]
